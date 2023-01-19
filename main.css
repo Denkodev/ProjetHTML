@@ -18,8 +18,8 @@ body{
     background-color: rgb(52, 198, 251);
     border-style: none;
     border-radius:25px;
-    margin: 0px 20px;
-    padding: 0px 25px;
+    margin: 0px 2%;
+    padding: 0px 2%;
     transition: all 250ms ease-in-out;
     text-transform: uppercase;
     box-shadow: 0px 0px 18px rgb(8, 234, 255);
@@ -38,11 +38,9 @@ body{
     box-shadow: 3px 3px 2px rgb(33, 82, 86);
 }
 .article{
-  width: 70% ;
-  float: left;
-  position:fixed;
-  left: 0;
-  
+    width: 72% ;
+    float: left;
+    margin-top:0%;
 }
 li {
     padding-top: 50px;
@@ -63,8 +61,8 @@ li a{
 }
 .article img{
     border-radius: 20px;
-    width: 250px;
-    height: 150px;
+    width: 35%;
+    max-width: 200px;
     filter: opacity(100%);
     animation-duration: 2s;
     animation-name: image;
@@ -79,7 +77,7 @@ li a{
 }
 h2{
     text-transform: uppercase;
-    color: rgb(151, 156, 156);
+    color: rgb(114, 241, 255);
 }
 .footer{
     color: rgb(255, 255, 255);
@@ -88,7 +86,6 @@ h2{
     bottom: 0;
     height: 50px;
     width: 100%;
-    text-align: center;
 }
 .footer img{
     width: 40px;
@@ -102,6 +99,7 @@ h2{
     filter:brightness(50%);
 }
 p {
+    line-height: 1em;
     font-size: 20px;
     color: #ffffff;
     animation-duration: 1500ms;
@@ -118,28 +116,121 @@ from {
 }
 .box{
     width: 60%;
-    padding: 20px;
+    padding: 2%;
     background-color: #24b2d2;
-    border-radius: 0 0 40px;
+    border-radius: 0px 0px 40px;
 }
 .box2{
     float: right;
-    width: 50%;
-    padding: 20px;
+    width: 60%;
+    padding-left: 2%;
+    padding-top:2%;
+    padding-bottom: 5%;
     background-color: #24b2d2;
-    border-radius: 40px 40px 00px 0px;
-    position: fixed;
-    margin-left: 300px;
-    margin-top: 100px;
-    margin-right: 0%;
+    border-radius: 40px 40px 40px 40px;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    max-height: 200px;
+    
 }
 .aside{
+    margin-top: 5%;
     float: right;
     width: 25%;
     height: 100%;
     background: linear-gradient(45deg,#04a9b1, #000000);
-    border-radius: 0px 0px 0px 40px;
+    border-radius: 40px 0px 0px 40px;
 }
 .aside p{
+    margin: 35px 20px;
+}
+h1{
+    color: rgb(58, 58, 58);
+    text-transform: uppercase;
+}
+.dessin{
+    width: 100%;
+    background-color: #24b2d2;
+    padding: 1% 0px;
+}
+.dessin1{
+    float: left;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    width: 70%;
+    background-color: #24b2d2;
+    margin-top: 3%;
+    border-radius: 20px;
+}
+.dessin1 a{
+    text-decoration: none;
+}
+.asideD{
+    background-color: #077088;
+    margin-top: 5%;
+    float: right;
+    width: 25%;
+    height: 100%;
+    border-radius: 40px 0px 0px 40px;
+    text-align: center;
+}
+.asideD p{
+    margin: 35px 20px;
+}
+.asideD img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-top:5px;
+    margin-left: 10px;
+    transition: all 250ms ease-in-out ;
+}
+.asideD img:hover{
+    filter:brightness(50%);
+}
+.sport{
+    width: 100%;
+    background-color: #24b2d2;
+    padding: 1% 0px;
+}
+.sport1{
+    float: left;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    width: 70%;
+    background-color: #24b2d2;
+    margin-top: 3%;
+    border-radius: 20px;
+}
+.asideS {
+    background-color: #077088;
+    margin-top: 5%;
+    float: right;
+    width: 25%;
+    height: 100%;
+    border-radius: 40px 0px 0px 40px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.asideS img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-top:5px;
+    margin-left: 10px;
+}
+.asideS a{
+    font-size: larger;
+    color: #f2f2f2;
+    text-decoration: none;
+    transition: all 250ms ease-in-out ;
+}
+.asideS a:hover{
+    filter:brightness(75%);
+}
+.asideS p{
     margin: 35px 20px;
 }

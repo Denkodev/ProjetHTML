@@ -1,0 +1,145 @@
+body{
+    margin: 0%;
+    padding: 0px;
+    font-family:'Cabin', sans-serif;
+    background-color: #f2f2f2;
+    line-height: 100%;
+}
+.entete{
+    background: linear-gradient(45deg,#014b4f, #000000);
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: 0%;
+}
+.menu{
+    float: left;
+    background-color: rgb(52, 198, 251);
+    border-style: none;
+    border-radius:25px;
+    margin: 0px 20px;
+    padding: 0px 25px;
+    transition: all 250ms ease-in-out;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 18px rgb(8, 234, 255);
+}
+.menu, .menu a{
+    color: rgb(223, 255, 252);
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+.menu:hover{
+    cursor: pointer;
+}
+.menu:hover, .menu:focus {
+    background-color: rgb(21, 63, 73);
+    box-shadow: 3px 3px 2px rgb(33, 82, 86);
+}
+.article{
+  width: 70% ;
+  float: left;
+  position:fixed;
+  left: 0;
+  
+}
+li {
+    padding-top: 50px;
+    list-style: none;
+    display: inline-block;
+    color: white;
+    width: 40%;
+}
+li a{
+    
+    color:rgb(255, 223, 223);
+    text-decoration: none;
+    transition: 200ms;
+    padding-bottom:5px;
+    padding-top: 193px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.article img{
+    border-radius: 20px;
+    width: 250px;
+    height: 150px;
+    filter: opacity(100%);
+    animation-duration: 2s;
+    animation-name: image;
+}
+@keyframes image{
+    from{
+        filter: opacity(0%);
+    }
+    to{
+        filter: opacity(100%);
+    }
+}
+h2{
+    text-transform: uppercase;
+    color: rgb(151, 156, 156);
+}
+.footer{
+    color: rgb(255, 255, 255);
+    background: linear-gradient(45deg,#014b4f, #000000);
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+.footer img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top:5px;
+    margin-left: 10px;
+    transition: all 250ms ease-in-out ;
+}
+.footer img:hover{
+    filter:brightness(50%);
+}
+p {
+    font-size: 20px;
+    color: #ffffff;
+    animation-duration: 1500ms;
+    animation-name: slide;
+}
+@keyframes slide{
+from {
+    margin-bottom: 10px;
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+.box{
+    width: 60%;
+    padding: 20px;
+    background-color: #24b2d2;
+    border-radius: 0 0 40px;
+}
+.box2{
+    float: right;
+    width: 50%;
+    padding: 20px;
+    background-color: #24b2d2;
+    border-radius: 40px 40px 00px 0px;
+    position: fixed;
+    margin-left: 300px;
+    margin-top: 100px;
+    margin-right: 0%;
+}
+.aside{
+    float: right;
+    width: 25%;
+    height: 100%;
+    background: linear-gradient(45deg,#04a9b1, #000000);
+    border-radius: 0px 0px 0px 40px;
+}
+.aside p{
+    margin: 35px 20px;
+}
